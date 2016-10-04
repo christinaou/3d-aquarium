@@ -1,0 +1,7 @@
+Design
+
+I'm not too sure what this means... I wanted to make a 3D aquarium simulation and used Panda3d and Blender to achieve those goals. The GUI interface allows a user to design and customize a fish they want to add, places it in the tank, and animates it. 
+
+There are a lot of GUI elements because the whole project is meant to be highly customizable and interactive, though not a game. There was a lot of focus on graphics but also how the user can interact with the program. 
+
+The most important functions I made were creating the tank, setting up the GUI features, and fish behaviors. Within the fish class, I have many, many movement functions to simulate real-life animation. I also included some fish subclasses like AggressiveFish that added a specific behavior (chasing) to the model. There was also a UserFish that a user could move themselves.

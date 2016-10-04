@@ -1,0 +1,38 @@
+Updates from tp deliverable 1 to tp deliverable 2
+
+Many added GUI features
+    no GUI before
+    have images of fish you want to add
+    click on the fish species' name
+    can personalize the fish by giving it a name (entry box)
+    customize by giving it a behavior (commmunity or aggressive)
+    after clicking add, the stats of the new fish are at the top left and new
+        fish shows up in the tank
+    have a run button to start, pause, and continue the simulation of the 
+        fish swimming
+
+Graphics
+    added fog for depth, farther things are blurrier while closer things are
+        sharper
+    added decorations to the bottom of the tank (rock, wood log, and plant)
+
+Fish Classes
+    initialized the fish to appear in random positions
+    initialized with a random rotation direction, start off swimming in 
+        random direction
+    init class used to be hardcoded. now relies on user input from GUI
+    added XYZ boundaries so the fish will turn away from the left/right/top/
+        bottom of the tank.
+        Had to make sure the fish turned with the correct orientation
+        (eg fish pointing right at the wall needs to continue turning right)
+
+AggressiveFish Class
+    added a different behavior class
+    it can "chase" fish that come within a certain distance of it
+    with chasing, had to factor in how a fish rotates (heading,pitch,roll)
+        with how it changes positions in the x/y/z sphere
+
+
+That's it thank you!
+Christina
+
